@@ -1,0 +1,33 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+{% block content %}
+        
+        
+        <div class="main">
+            
+            <div class="infoContainer">
+
+                <div class="devInfo">
+
+                    <div class="hello">Hello,</div>
+                    <div class="name">I am Kaushik Chowdhury</div>
+                    <div class="about">Machine Learning Engineer, Entrepreneur</div>
+                    <div class="buttons">
+                        <a href="{% static 'blog/Resume.pdf' %}" target="_blank"><button>Download CV</button></a>
+                        <a href="https://github.com/KaushikChowdhury"><button>Github</button></a>
+                        <a href="https://www.linkedin.com/in/kaushikchowdhury/"><button>Linkedin</button></a>
+                    </div>
+
+                </div>
+
+                <div class="devPic">
+                    <img src="{% static 'blog/Kaushik_Chowdhury_B+.png' %}" alt="Kaushik_Chowdhury" srcset="">
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+{% endblock %}
