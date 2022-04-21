@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(48, 47, 47);
+    width: 22vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+}
+
+.sidebar nav{
+    padding: 45px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 40px 0;
+    margin: -13px;
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    /* background-color: chartreuse; */
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex; /* or inline-flex */
+  }
+
+.infoContainer{
+    margin: 57px auto;
+    /* background-color: chocolate; */
+    height: 60vh;
+    width: 80vw;
+    justify-content: space-around;
+    display: flex;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.devPic img{
+    /* width: 207px; */
+    height: 45vh;
+}
+
+.hello{
+    font-size: 60px;
+}
+.name{
+    font-size: 50px;
+    font-weight:bold;
+
+}
+.about{
+    font-size: 30px;
+}
+.buttons button{
+    color: rgb(5, 5, 5);
+    margin-top: 24px;
+    margin-right: 66px;
+    padding: 10px;
+    flex-direction: row;
+    border-radius: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: rgb(88, 158, 238);
+    color:white;
+}
+
+.contactForm form{
+    margin: 70px 0 0 70px;
+    font-family: 'Source Code Pro', monospace;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm form div{
+    padding: 10px 0;
+}
+
+#emailHelp{
+    font-size: 9px;
+}
+
+.form-check{
+    font-size: 9px;
+}
